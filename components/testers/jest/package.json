@@ -1,6 +1,6 @@
 {
   "name": "@bit/lgy87.envs.testers.jest",
-  "version": "24.0.2",
+  "version": "24.0.4",
   "homepage": "https://bit.dev/lgy87/envs/testers/jest",
   "main": "dist/index.js",
   "dependencies": {

@@ -23,16 +23,9 @@ const run = specFile => {
   var ROOT = jestPath.split("/.git/")[0]
   var jestConfigFile = `${ROOT}/bit.jest.config.js`
 
-  var cmd =
-    '"' +
-    process.execPath +
-    '" ' +
-    jestPath +
-    " " +
-    convertedSpecFile +
-    ` --rootDir=${ROOT} --config=${jestConfigFile}` +
-    ` ${jestCmdConfig} ` +
-    '"'
+  var cmd = `"${
+    process.execPath
+  }" "${jestPath}" ${jestCmdConfig} "${convertedSpecFile}" --rootDir="${ROOT}" --config="${jestConfigFile}" --json --outputFile="${resultsFilePath}"`
 
   return exec(cmd)
     .then(({ err, stdout, stderr }) => {
