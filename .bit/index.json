@@ -1,0 +1,58 @@
+[
+  {
+    "id": {
+      "scope": "bit.utils",
+      "name": "file/extract-file-name-from-path"
+    },
+    "isSymlink": false,
+    "hash": "40b6505e0d7e94e891622864a08c778d10937456"
+  },
+  {
+    "id": {
+      "scope": "bit.utils",
+      "name": "object/has-own-property"
+    },
+    "isSymlink": false,
+    "hash": "68b489f0ac79f13787c77dc1fd6a7beb18a7b6ba"
+  },
+  {
+    "id": {
+      "scope": "bit.utils",
+      "name": "validation/empty"
+    },
+    "isSymlink": false,
+    "hash": "f3eaf6905e683e3a07caa88471fa4fd5637fde13"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "compilers/babel"
+    },
+    "isSymlink": false,
+    "hash": "ac130f5e67d6ac0482ae46fde1a4805ef4d8c149"
+  },
+  {
+    "id": {
+      "scope": "bit.envs",
+      "name": "testers/jest"
+    },
+    "isSymlink": true,
+    "hash": "1c664d486401bc211bb96479094bd8dd60e1d879"
+  },
+  {
+    "id": {
+      "scope": "testers",
+      "name": "jest"
+    },
+    "isSymlink": true,
+    "hash": "14fdeea7a02add9f25f4b254a8109cebfb41a968"
+  },
+  {
+    "id": {
+      "scope": "lgy87.envs",
+      "name": "testers/jest"
+    },
+    "isSymlink": false,
+    "hash": "ef018d1e317bef4e481f6dc148c05fb56ac32b9f"
+  }
+]

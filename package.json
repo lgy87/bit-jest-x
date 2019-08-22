@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@bit/bit.envs.testers.jest": "file:./components/testers/jest"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@bit/lgy87.envs.testers.jest",
+  "version": "24.0.2",
+  "homepage": "https://bit.dev/lgy87/envs/testers/jest",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@bit/bit.utils.file.extract-file-name-from-path": "0.0.3",
+    "@bit/bit.utils.validation.empty": "0.0.1",
+    "child-process-promise": "^2.2.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "24.9.0",
+    "jsdom": "^15.1.1",
+    "upath": "^1.1.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/babel@0.0.7"
+    }
+  }
+}
