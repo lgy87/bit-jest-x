@@ -4,14 +4,14 @@
   "homepage": "https://bit.dev/lgy87/envs/testers/jest",
   "main": "dist/index.js",
   "dependencies": {
-    "@bit/bit.utils.file.extract-file-name-from-path": "0.0.3",
-    "@bit/bit.utils.validation.empty": "0.0.1",
+    "@bit/bit.utils.file.extract-file-name-from-path": "1.0.0",
+    "@bit/bit.utils.validation.empty": "1.0.0",
     "child-process-promise": "^2.2.1",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "jest": "24.9.0",
-    "jsdom": "^15.1.1",
-    "upath": "^1.1.0"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "25.1.0",
+    "jsdom": "^16.0.1",
+    "upath": "^1.2.0"
   },
   "devDependencies": {},
   "peerDependencies": {},
