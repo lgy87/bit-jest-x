@@ -1,5 +1,14 @@
 {
   "dependencies": {
-    "@bit/bit.envs.testers.jest": "file:./components/testers/jest"
+    "@bit/bit.envs.testers.jest": "file:./components/testers/jest",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-object-values-to-object-keys": "^1.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-object-entries": "^1.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "lodash": "^4.17.15",
+    "lodash.groupby": "^4.6.0",
+    "vinyl": "^2.2.0"
   }
 }
